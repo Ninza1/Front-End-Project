@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" 
+    content="I have built a front-end project like portfolio website.">
+    <meta name="keywords" content="HTML, CSS, JavaScript portfolio website">
+    <meta name="author" content="free coding">
+    <title>Fee Coding Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+      <!--===========================
+     Header  Section below  
+    =========================================-->
+    <header class="header">
+        <img src="images/logo_1.png" alt="logo img" class="logo" height="40vh">
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="/" class="navbar-link home-link">Home</a></li>
+                <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="/service.html" class="navbar-link srevice-link">Service</a></li>
+                <li><a href="https://iqbal-portfolio1.netlify.app/" target="_blank" class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="phone-navbar-btn">
+            <ion-icon name="menu-outline" class="phone-nav-icon"></ion-icon> 
+            <ion-icon name="close-outline" class="phone-nav-icon"></ion-icon> 
+        </div>
+    </header>
+    <!--===========================
+     Main Hero Section below  
+    =========================================-->
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">
+                        Hi, I am
+                    </p>
+                    <h1 class="heor-heading">Iqbal Ali</h1>
+                    <p class="para"> I'm Full-Stack Web Developer who is passionate about learning new frameworks and creating user-friendly websites</p>
+                    <div>
+                        <a href="/contact.html" class="btn hireme-btn">Hire me</a>
+                    </div>
+                </div>
+                <!-- hero section right  -->
+                <div class="sectin-hero-img">
+                    <img class="hero-img" src="images/header-img.png" alt="this is hero img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=================================
+         My Bio-Data Section  
+        ==========================================-->
+
+    <section class="section-biodata section">
+        <div class="container grid grid-two-column">
+            <div class="bio-img">
+                <img src="images/bio-data-img.jpg" alt="my biodata img">
+            </div>
+
+            <!-- bio-data right side  -->
+            <div class="bio-data">
+                <h2 class="common-heading">My Bio-data</h2>
+                <p>I am a full stack web developer. I am passionate about programming and software engineering.</p>
+                <br>
+                <p>
+                    Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences, personal and professional growth.
+                </p>
+
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>HTML5</h3>
+                        <div class="bio-progress-bar">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS3</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>MERN Stack</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bio-data-btn">
+                    <a href="https://drive.google.com/file/d/1Z3DdsSJ3KXL9-O7KmMTSuQGQDA7L9aro/view?usp=sharing"
+                    class="btn"
+                     download 
+                     target="_blank">Download CV</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--=================================
+         My Portfolio Section below 
+        ==========================================-->
+    <section class=" section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Awesome Works</h2>
+            <p>I have built many projects with team members and personally as well. Feel free to check out.</p>
+        </div>
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Front-end</div>
+            <div class="btn p-btn" data-btn-num="2">Backend</div>
+            <div class="btn p-btn" data-btn-num="3">MERN</div>
+        </div>
+
+        <div class="container grid grid-three-column portfolio-img">
+            <div class="img-overlay p-btn--1">
+                <img src="images/work3.jpg" alt="my works">
+                <div class="overlay">
+                    <!-- <a href="https://github.com/Ninza1/User_Details" target="_ali" class="common-heading">Project1</a> -->
+                    <a href="https://github.com/Ninza1/Clone-Dot-key-Web" target="_ali" class="common-heading">Project1</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1">
+                <img src="images/work2.jpg" alt="my works">
+                <div class="overlay">
+                    <a href="https://github.com/Ninza1/Internshala.com-clone" target="_ali" class="common-heading">Project2</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1">
+                <img src="images/work3.jpg" alt="my works">
+                <div class="overlay">
+                    <a href="https://github.com/Ninza1/User_Details" target="_ali" class="common-heading">Project3</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--3 p-btn--2">
+                <img src="images/work4.jpg" alt="my works">
+                <div class="overlay">
+                    <a href="https://github.com/Ninza1/Nature-s-Basket-Clone" target="_ali" class="common-heading">Project4</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2 p-btn--3">
+                <img src="images/work5.jpg" alt="my works">
+                <div class="overlay">
+                    <a href="https://github.com/Ninza1/React_addToCart" target="_ali" class="common-heading">Project5</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--3">
+                <img src="images/work3.jpg" alt="my works">
+                <div class="overlay">
+                    <a href="https://github.com/Ninza1/mern-assign" target="_ali" class="common-heading">Project6</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=================================
+         My work counter section;
+        ==========================================-->
+
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number= 1000>0+</h2>
+                <p>project completed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number= 1500>0+</h2>
+                <p>Happy Clints</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number=500>0+</h2>
+                <p>Project Developing</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number= 2000>0+</h2>
+                <p>Professionals Network</p>
+            </div>
+        </div>
+    </section>
+
+    <!--=================================
+         My work counter section;
+        ==========================================-->
+    <section class="section section-services">
+         <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p> You can get the best services mentioned below. Customers are availing these services and sharing positive feedback with me.
+                Don't be late, hurry up! .</p>
+
+        </div>
+        <!-- services offers cards  -->
+        <div class="container grid grid-three-column">
+            
+
+            <div class="service-box">
+                <ion-icon class="service-icon" name="logo-html5"></ion-icon>
+                <h3>Front-end Dev</h3>
+                <p>Front-end web development, also known as client-side development 
+                    is the practice of producing HTML, CSS and JavaScript for a website </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon class="service-icon" name="logo-javascript"></ion-icon>
+                <h3>Back-end Dev</h3>
+                <p>Back-end development means working on server-side software, 
+                    which focuses on everything you can't see on a website.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-nodejs" class="service-icon"></ion-icon>
+                <h3>MERN Stack Dev</h3>
+                <p>MERN stack is a collection of technologies that enables faster
+                     application development. It is used by developers worldwide</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>ReactJS Dev</h3>
+                <p>React.js developers design and implement user interface components for JavaScript-based web 
+                    and mobile applications using the React open-source library</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon class="service-icon" name="logo-nodejs"></ion-icon>
+                <h3>Node JS Dev</h3>
+                <p>Node js Developer is an IT professional who responsible for managing the interchange 
+                    of data between the server and the users.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon class="service-icon" name="logo-microsoft"></ion-icon>
+                <h3>Full Stack Dev</h3>
+                <p>A Full-Stack developer is a professional responsible for working on both front-end and back-end development processes. They design, develop, and maintain 
+                    fully-fledged and functioning platforms with databases or servers</p>
+            </div>
+        </div>
+    </section>
+
+    <!--=================================
+         My Swiper  section;
+        ==========================================-->
+    <section class="section section-testmonial">
+        <div class="container">
+            <h2 class="common-heading">Happy Clints</h2>
+        </div>
+
+
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide"></div> -->
+                <!-- section start  -->
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>“I realize it wasn’t easy to admit you were running behind on this project, 
+                            but I’m so glad you were honest. </p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client-1.jpg" alt="The beautiful MDN logo." />
+                        </figure>
+                        <!-- <img src="images/client-1.jpg" alt="The beautiful MDN logo." /> -->
+                        <div class="client-data-details">
+                            <p>Retash Yara</p>
+                            <p>SDE</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- section end  -->
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>This project really benefited from your ideas. I’m so glad you decided to carve out the 
+                            time to lend your expertise to this initiative.”</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/client-2.jpg" alt="The beautiful MDN logo." />
+                        </figure>
+                        <!-- <img src="images/client-1.jpg" alt="The beautiful MDN logo." /> -->
+                        <div class="client-data-details">
+                            <p>Richa Tendle</p>
+                            <p>Back-end Dev</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- section end  -->
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Extremely helpful, user-friendly, innovative and reliable. Very satisfactory outcome, 
+                            knowing that I can go back to them at any time for further help.</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/slide3.jpg" alt="The beautiful MDN logo." />
+                        </figure>
+                        <!-- <img src="images/client-1.jpg" alt="The beautiful MDN logo." /> -->
+                        <div class="client-data-details">
+                            <p>Isra </p>
+                            <p>Product Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- section end  -->
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>“I know this goal wasn’t easy. How you managed to set it and systematically work towards it. I’m lucky to have you on my team.</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/slide2.jpg" alt="The beautiful MDN logo." />
+                        </figure>
+                        <!-- <img src="images/client-1.jpg" alt="The beautiful MDN logo." /> -->
+                        <div class="client-data-details">
+                            <p>Safar</p>
+                            <p>FSWD</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- section end  -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>The Web Surgery were friendly, fast, efficient and within budget. From advice on what 
+                            work best for us was smart and insightful.</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/slide2.jpg" alt="The beautiful MDN logo." />
+                        </figure>
+                        <!-- <img src="images/client-1.jpg" alt="The beautiful MDN logo." /> -->
+                        <div class="client-data-details">
+                            <p>Aman Kenney</p>
+                            <p>The Urban State Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- section end  -->
+
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Extremely helpful, user-friendly, innovative and reliable. Very satisfactory outcome, 
+                            knowing that I can go back to them at any time for further help.</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/slide3.jpg" alt="The beautiful MDN logo." />
+                        </figure>
+                        <!-- <img src="images/client-1.jpg" alt="The beautiful MDN logo." /> -->
+                        <div class="client-data-details">
+                            <p>Isra </p>
+                            <p>Product Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- section end  -->
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--=================================
+         My impact work section is below;
+        ==========================================-->
+    <section class="section section-impact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>Available</span> to help you.</h2>
+            <p>coding is my passion. I can help you like front-end developer, Back-end developer, 
+                MERN Stack developer, ReactJS Developer. and much more...</p>
+            <a href="/contact.html" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <!--=================================
+         My Contact Us section is below;
+        ==========================================-->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+        <div class="section-contact-main contact-container">
+            <form  action="https://formspree.io/f/xqkjqbny"
+                    method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" id="username" placeholder="Name" autocomplete="off" required >
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="name@gmail.com" required >
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id="subject" placeholder="subject" required>
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Message..." required min="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" id="submit" class="btn" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!--=================================
+         Web Footer section is below;
+        ==========================================-->
+    <footer class="section section-footer footer">
+        <div class="container grid grid-four-column">
+            <div class="f-about" >
+                <p>Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, 
+                    interesting experiences, personal and professional growth.</p>
+
+            </div>
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/">Home</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/service.html">Service</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="https://iqbal-portfolio1.netlify.app/" target="_blank">Portfolio</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="/contact.html">Contact</a>
+                    </li>
+                  
+                   
+                </ul>
+            </div>
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Front-end Dev</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Back-end Dev</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">MERN Stack Dev</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">ReactJS Dev</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">NodeJS Dev </a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Full-Stack Dev </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="f-address">
+                <h3>Hava a Question</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>
+                            <a href="#">UP, India</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span>
+                            <a href="tel: +91 8853769609">+91 99999 98765</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <a href="mailto:text@gmail.com ">user@gmail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.linkedin.com/in/iqbal-ali-41718a234/" target="_blank">
+                    <!-- <ion-icon class="icons" name="logo-linkedin"></ion-icon> -->
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+
+                </a>
+                <a href="https://github.com/Ninza1" target="_blank">
+                    <ion-icon class="icons" name="logo-github"></ion-icon>
+                </a>
+                <a href="https://www.youtube.com/channel/UCQdvqJRA7NYv6l-uDuV2wCg" target="_blank">
+                    <ion-icon class="icons" name="logo-youtube"></ion-icon>
+                </a>
+            </div>
+            <div class="f-credits">
+                <p>
+                    Copyright @2020 all rights reserved| Powered by freecoding.com;
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>
